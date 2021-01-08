@@ -1,0 +1,6 @@
+Trending_button://a[@title='Trending']
+Login_button://*[@aria-label='Sign in']
+Username:identifierId
+Password1://input[@aria-label='Enter your password']
+Logout://*[@href='/logout']
+History://a[@title='History']
