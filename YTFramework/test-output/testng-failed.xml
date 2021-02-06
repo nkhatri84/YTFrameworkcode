@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.testing.Testscripts.TC4">
+      <class name="org.testing.Testscripts.TC5">
+        <methods>
+          <include name="Login"/>
+          <include name="Browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.Testscripts.TC5 -->
+      <class name="org.testing.Testscripts.TC2">
         <methods>
           <include name="Browserlaunch"/>
           <include name="browserclose"/>
           <include name="Login"/>
         </methods>
-      </class> <!-- org.testing.Testscripts.TC4 -->
+      </class> <!-- org.testing.Testscripts.TC2 -->
+      <class name="org.testing.Testscripts.TC3">
+        <methods>
+          <include name="Browserlaunch"/>
+          <include name="browserclose"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- org.testing.Testscripts.TC3 -->
+      <class name="org.testing.Testscripts.TC7">
+        <methods>
+          <include name="Browserlaunch"/>
+          <include name="Login"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.Testscripts.TC7 -->
+      <class name="org.testing.Testscripts.TC8">
+        <methods>
+          <include name="Login"/>
+          <include name="Browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.Testscripts.TC8 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,25 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80040" started-at="2021-01-07T11:28:30Z" finished-at="2021-01-07T11:29:50Z">
+  <suite name="Suite" duration-ms="513297" started-at="2021-02-06T12:37:37Z" finished-at="2021-02-06T12:46:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80040" started-at="2021-01-07T11:28:30Z" finished-at="2021-01-07T11:29:50Z">
-      <class name="org.testing.Testscripts.TC4">
-        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC4@171b748]" name="Browserlaunch" is-config="true" duration-ms="21556" started-at="2021-01-07T11:28:30Z" finished-at="2021-01-07T11:28:52Z">
+    <test name="Test" duration-ms="513297" started-at="2021-02-06T12:37:37Z" finished-at="2021-02-06T12:46:10Z">
+      <class name="org.testing.Testscripts.TC2">
+        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC2@ad1f1f]" name="Browserlaunch" is-config="true" duration-ms="22117" started-at="2021-02-06T12:43:15Z" finished-at="2021-02-06T12:43:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browserlaunch -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.Testscripts.TC4@171b748]" name="Login" duration-ms="58369" started-at="2021-01-07T11:28:52Z" finished-at="2021-01-07T11:29:50Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.Testscripts.TC2@ad1f1f]" name="Login" duration-ms="32146" started-at="2021-02-06T12:43:37Z" finished-at="2021-02-06T12:44:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC4@171b748]" name="browserclose" is-config="true" duration-ms="82" started-at="2021-01-07T11:29:50Z" finished-at="2021-01-07T11:29:50Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC2@ad1f1f]" name="browserclose" is-config="true" duration-ms="53" started-at="2021-02-06T12:44:09Z" finished-at="2021-02-06T12:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.testing.Testscripts.TC2 -->
+      <class name="org.testing.Testscripts.TC1">
+        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC1@11cc5c9]" name="Browserlaunch" is-config="true" duration-ms="21501" started-at="2021-02-06T12:42:18Z" finished-at="2021-02-06T12:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method status="PASS" signature="trending()[pri:0, instance:org.testing.Testscripts.TC1@11cc5c9]" name="trending" duration-ms="34816" started-at="2021-02-06T12:42:40Z" finished-at="2021-02-06T12:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trending -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC1@11cc5c9]" name="browserclose" is-config="true" duration-ms="50" started-at="2021-02-06T12:43:14Z" finished-at="2021-02-06T12:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.testing.Testscripts.TC1 -->
+      <class name="org.testing.Testscripts.TC6">
+        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC6@1758f2a]" name="Browserlaunch" is-config="true" duration-ms="21128" started-at="2021-02-06T12:38:52Z" finished-at="2021-02-06T12:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.Testscripts.TC6@1758f2a]" name="Login" duration-ms="54913" started-at="2021-02-06T12:39:14Z" finished-at="2021-02-06T12:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC6@1758f2a]" name="browserclose" is-config="true" duration-ms="2419" started-at="2021-02-06T12:40:08Z" finished-at="2021-02-06T12:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.testing.Testscripts.TC6 -->
+      <class name="org.testing.Testscripts.TC5">
+        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC5@12679d6]" name="Browserlaunch" is-config="true" duration-ms="23703" started-at="2021-02-06T12:37:37Z" finished-at="2021-02-06T12:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.Testscripts.TC5@12679d6]" name="Login" duration-ms="51495" started-at="2021-02-06T12:38:01Z" finished-at="2021-02-06T12:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC5@12679d6]" name="browserclose" is-config="true" duration-ms="105" started-at="2021-02-06T12:38:52Z" finished-at="2021-02-06T12:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.testing.Testscripts.TC5 -->
+      <class name="org.testing.Testscripts.TC4">
+        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC4@2d5aee]" name="Browserlaunch" is-config="true" duration-ms="23307" started-at="2021-02-06T12:45:07Z" finished-at="2021-02-06T12:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.Testscripts.TC4@2d5aee]" name="Login" duration-ms="40238" started-at="2021-02-06T12:45:30Z" finished-at="2021-02-06T12:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC4@2d5aee]" name="browserclose" is-config="true" duration-ms="60" started-at="2021-02-06T12:46:10Z" finished-at="2021-02-06T12:46:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- org.testing.Testscripts.TC4 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="org.testing.Testscripts.TC3">
+        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC3@1aab78]" name="Browserlaunch" is-config="true" duration-ms="24413" started-at="2021-02-06T12:44:09Z" finished-at="2021-02-06T12:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.Testscripts.TC3@1aab78]" name="Login" duration-ms="33450" started-at="2021-02-06T12:44:33Z" finished-at="2021-02-06T12:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC3@1aab78]" name="browserclose" is-config="true" duration-ms="78" started-at="2021-02-06T12:45:07Z" finished-at="2021-02-06T12:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.testing.Testscripts.TC3 -->
+      <class name="org.testing.Testscripts.TC8">
+        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC8@126f7b2]" name="Browserlaunch" is-config="true" duration-ms="24133" started-at="2021-02-06T12:41:21Z" finished-at="2021-02-06T12:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.Testscripts.TC8@126f7b2]" name="Login" duration-ms="32897" started-at="2021-02-06T12:41:45Z" finished-at="2021-02-06T12:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC8@126f7b2]" name="browserclose" is-config="true" duration-ms="59" started-at="2021-02-06T12:42:18Z" finished-at="2021-02-06T12:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.testing.Testscripts.TC8 -->
+      <class name="org.testing.Testscripts.TC7">
+        <test-method status="PASS" signature="Browserlaunch()[pri:0, instance:org.testing.Testscripts.TC7@720b71]" name="Browserlaunch" is-config="true" duration-ms="36130" started-at="2021-02-06T12:40:11Z" finished-at="2021-02-06T12:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.Testscripts.TC7@720b71]" name="Login" duration-ms="33963" started-at="2021-02-06T12:40:47Z" finished-at="2021-02-06T12:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.Testscripts.TC7@720b71]" name="browserclose" is-config="true" duration-ms="79" started-at="2021-02-06T12:41:21Z" finished-at="2021-02-06T12:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.testing.Testscripts.TC7 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

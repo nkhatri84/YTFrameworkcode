@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="E:/new jar/oldjar/selenium-2.48.2-20201206T151526Z-001/selenium-2.48.2/libs/apache-mime4j-0.6.jar"/>
 	<classpathentry kind="lib" path="E:/new jar/oldjar/selenium-2.48.2-20201206T151526Z-001/selenium-2.48.2/libs/bsh-2.0b4.jar"/>
 	<classpathentry kind="lib" path="E:/new jar/oldjar/selenium-2.48.2-20201206T151526Z-001/selenium-2.48.2/libs/cglib-nodep-2.1_3.jar"/>
@@ -62,5 +71,14 @@
 	<classpathentry kind="lib" path="E:/new jar/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="E:/new jar/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="E:/new jar/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/log4j-1.2.17 (2)/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Desktop/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/jxl-2.6.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>

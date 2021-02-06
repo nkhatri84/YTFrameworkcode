@@ -3,13 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.testing.Testscripts.TC4">
-        <methods>
-          <include name="Browserlaunch"/>
-          <include name="browserclose"/>
-          <include name="Login"/>
-        </methods>
-      </class> <!-- org.testing.Testscripts.TC4 -->
       <class name="org.testing.Testscripts.TC5">
         <methods>
           <include name="Login"/>
@@ -17,6 +10,34 @@
           <include name="browserclose"/>
         </methods>
       </class> <!-- org.testing.Testscripts.TC5 -->
+      <class name="org.testing.Testscripts.TC2">
+        <methods>
+          <include name="Browserlaunch"/>
+          <include name="browserclose"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- org.testing.Testscripts.TC2 -->
+      <class name="org.testing.Testscripts.TC3">
+        <methods>
+          <include name="Browserlaunch"/>
+          <include name="browserclose"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- org.testing.Testscripts.TC3 -->
+      <class name="org.testing.Testscripts.TC7">
+        <methods>
+          <include name="Browserlaunch"/>
+          <include name="Login"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.Testscripts.TC7 -->
+      <class name="org.testing.Testscripts.TC8">
+        <methods>
+          <include name="Login"/>
+          <include name="Browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.Testscripts.TC8 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

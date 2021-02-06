@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.testing.Testscripts.TC4">
+      <class name="bdd.DDF_1">
         <methods>
+          <include name="Signin1" invocation-numbers="1"/>
           <include name="Browserlaunch"/>
           <include name="browserclose"/>
-          <include name="Login"/>
         </methods>
-      </class> <!-- org.testing.Testscripts.TC4 -->
+      </class> <!-- bdd.DDF_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
